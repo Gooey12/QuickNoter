@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="file:///C:/Users/Jaspher%20Erich/Documents/Projects/Note%20App/favicon.png" type="image/x-icon">
+
+    <title>[website name]</title>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="title">
+        <h1 align="center">[title]</h1>
+    </div>
+    <hr>
+
+    <center>
+    <div class="box">
+        <textarea name="textbox" id="textbox" cols="30" rows="10"></textarea>
+    </div>
+
+    <center>
+    <div class="buttons">
+        <div class="copybutton">
+           <button id="copy" name="copy" onclick="copy()"><img src="file:///C:/Users/Jaspher%20Erich/Documents/Projects/Note%20App/clipboard.png" alt="copy" style="width: 32px;"></button>
+        </div>
+
+        <div class="savebutton">
+           <a id="hidden-link" href="#" download></a>
+            <button id="save" name="save">Save</button>
+        </div>
+
+        <div class="deletebutton">
+            <button id="delete" name="delete" onclick="del()"><img src="file:///C:/Users/Jaspher%20Erich/Documents/Projects/Note%20App/trashcan.png" alt="delete" style="width: 32px;"></button>
+        </div>
+    </center>
+    </center>
+    </div>
+
+</div>
+
+<br>
+<br>
+
+<center>
+<footer>
+    <div name="footer">
+        Copyright &copy; - Gooey.
+    </div>
+</footer>
+</center>
+
+<script src="app.js"></script>
+    
+</body>
+</html>

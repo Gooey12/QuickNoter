@@ -1,0 +1,153 @@
+*, ::-webkit-scrollbar, footer {
+    cursor:url(file:///C:/Users/Jaspher%20Erich/Documents/Projects/Note%20App/cursor.png), auto;
+    font-family: cursive;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: auto;
+    width: auto;
+}
+
+body {
+    background-color: rgb(240, 171, 43);
+    padding: 40px;
+}
+
+.container {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+    box-shadow: 10px 15px #1408006e;
+    height: 600px;
+}
+
+hr {
+    border-style: solid;
+    border-color: black;
+}
+
+.box {
+    padding-left: 23px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-content: center;
+    padding-right: 50px;
+}
+
+textarea {
+    text-align: left;
+    resize: none;
+    background-color: rgb(247, 198, 107);
+    border-radius: 13px;
+    width: fit-content;
+    color: #3f1e00;
+    font-size: 16px;
+    font-weight: bold;
+    height: 370px;
+    width: 95%;
+}
+
+#save {
+    width: 120px;
+    height: 45px;
+    border-style: solid;
+    border-radius: 6px;
+    font-size: 25px;
+    font: bolder;
+    background-color: rgb(240, 139, 72);
+}
+
+#hidden-link {
+    display: none;
+}
+
+#save:hover {
+    background-color: rgb(236, 178, 140);
+    border-color: rgb(43, 28, 16);
+    transition: 0.5s ease-in-out;
+}
+
+.savebutton {
+    padding-left: 18px;
+    padding-bottom: 17px;
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(255, 193, 123);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 145, 0);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(255, 157, 30);;
+    cursor: pointer;
+}
+
+#copy {
+    width: 54px;
+    height: 45px;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: rgb(240, 139, 72);
+    padding: 0.4%;
+    margin-right: 4px;
+    margin-left: 15px
+}
+
+.buttons {
+    display: flex;
+}
+
+#delete {
+    width: 54px;
+    height: 45px;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: rgb(240, 139, 72);
+    padding: 0.4%;
+    margin-right: 4px;
+    margin-left: 15px
+}
+
+#copy:hover {
+    background-color: rgb(236, 178, 140);
+    border-color: rgb(43, 28, 16);
+    transition: 0.5s ease-in-out;
+}
+
+#delete:hover {
+    background-color: rgb(236, 178, 140);
+    border-color: rgb(43, 28, 16);
+    transition: 0.5s ease-in-out;
+}
+
+::selection {
+    background-color: rgb(255, 167, 52);
+}
+
+@media only screen and (max-width: 1024px) {
+
+    textarea {
+        margin-left: 15px
+    }
+
+    .buttons {
+        margin-left: 32px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    textarea {
+        margin-left: 25px;
+    }
+
+    .buttons {
+        margin-left: 46px;
+    }
+}
