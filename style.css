@@ -3,7 +3,6 @@
 *, ::-webkit-scrollbar, footer {
     cursor:url(https://raw.githubusercontent.com/CaptGooey12/QuickNoter/main/cursor.png), auto;
     font-family: 'Patrick Hand', cursive;
-    font-weight: bold;
     -webkit-user-select: none;      
     -moz-user-select: none;
     -ms-user-select: none;
@@ -11,6 +10,10 @@
     height: auto;
     width: auto;
     font-color: black;
+}
+
+h1 {
+    font-size: 70px;
 }
 
 body {
