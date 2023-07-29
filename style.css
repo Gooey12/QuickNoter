@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 *, ::-webkit-scrollbar, footer {
     cursor:url(https://raw.githubusercontent.com/CaptGooey12/QuickNoter/main/cursor.png), auto;
     font-family: 'Patrick Hand', cursive;
