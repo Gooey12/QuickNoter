@@ -26,7 +26,7 @@ body {
     border-radius: 15px;
     border-width: 2px;
     box-shadow: 10px 15px #1408006e;
-    height: 640px;
+    height: 500px;
 }
 
 hr {
@@ -51,7 +51,7 @@ textarea {
     color: #3f1e00;
     font-size: 16px;
     font-weight: bold;
-    height: 85%;
+    height: 96%;
     width: 95%;
 }
 
