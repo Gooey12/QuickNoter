@@ -96,8 +96,8 @@ textarea {
 }
 
 #copy {
-    width: 54px;
-    height: 45px;
+    width: 50px;
+    height: 40px;
     border-style: solid;
     border-radius: 6px;
     background-color: rgb(240, 139, 72);
@@ -108,11 +108,12 @@ textarea {
 
 .buttons {
     display: flex;
+    margin: auto;
 }
 
 #delete {
-    width: 54px;
-    height: 45px;
+    width: 50px;
+    height: 40px;
     border-style: solid;
     border-radius: 6px;
     background-color: rgb(240, 139, 72);
