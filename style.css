@@ -13,6 +13,7 @@
 }
 
 h1 {
+    margin: 12px 0px 12px 0px;
     font-size: 70px;
     color: black;
 }
@@ -52,7 +53,7 @@ textarea {
     color: #3f1e00;
     font-size: 16px;
     font-weight: bold;
-    height: 96%;
+    height: 300px;
     width: 95%;
 }
 
