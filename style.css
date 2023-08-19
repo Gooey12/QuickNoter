@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+padd@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 *, ::-webkit-scrollbar, footer {
     cursor:url(https://raw.githubusercontent.com/CaptGooey12/QuickNoter/main/cursor.png), auto;
@@ -57,7 +57,7 @@ textarea {
     width: fit-content;
     color: #3f1e00;
     font-size: 16px;
-    font-weight: bold;
+ paddingont-weight: bold;
     height: 300px;
     width: 95%;
 }
@@ -171,7 +171,7 @@ textarea {
 
     . buttons {
         margin-left: 0px;
-        margin-right: 45px;
+        padding-left: 45px;
     }
     
 }
