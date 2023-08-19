@@ -12,7 +12,12 @@
     font-color: black;
 }
 
-h1 {
+b {
+    font-weight: bold;
+    font-size: 32px
+}
+
+#title {
     margin: 12px 0px 12px 0px;
     font-size: 70px;
     color: black;
@@ -160,4 +165,12 @@ textarea {
     .buttons {
         margin-left: 46px;
     }
+}
+
+@media only screen and (min-width: 720px); {
+
+    . buttons {
+        margin-left: 0px;
+    }
+    
 }
