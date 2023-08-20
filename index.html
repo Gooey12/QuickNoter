@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -15,51 +13,44 @@
 
 </head>
 <body>
-
-<div class="container">
-
-    <div class="title">
-        <h1 name="title" align="center">QuickNoter</h1>
-    </div>
-    <hr>
-
-    <center>
-    <div class="box">
-        <textarea name="textbox" id="textbox" cols="30" rows="10"></textarea>
-    </div>
-
-    <center>
-    <div class="buttons">
-        <div class="copybutton">
-           <button id="copy" name="copy" onclick="copy()"><img src="https://raw.githubusercontent.com/CaptGooey12/QuickNoter/main/clipboard.png" alt="copy" style="width: 32px;"></button>
+    <div class="container">
+        <div class="title">
+            <h1 name="title" align="center">QuickNoter</h1>
         </div>
+        <hr/>
 
-        <div class="savebutton">
-           <a id="hidden-link" href="#" download></a>
+        <center>
+            <br/>
+            <div class="box">
+                <textarea name="textbox" id="textbox" rows="10"></textarea>
+            </div>
+        </center>
+        <br/>
+
+        <div class="buttons">
+            <button id="copy" name="copy" onclick="copy()">
+                <img src="https://raw.githubusercontent.com/CaptGooey12/QuickNoter/main/clipboard.png" alt="copy" style="width: 32px;">
+            </button>
+
+            <a id="hidden-link" href="#" download></a>
             <button id="save" name="save">Save</button>
-        </div>
 
-        <div class="deletebutton">
-            <button id="delete" name="delete" onclick="del()"><img src="https://raw.githubusercontent.com/CaptGooey12/QuickNoter/main/trashcan.png" alt="delete" style="width: 32px;"></button>
+            <button id="delete" name="delete" onclick="del()">
+                <img src="https://raw.githubusercontent.com/CaptGooey12/QuickNoter/main/trashcan.png" alt="delete" style="width: 32px;">
+            </button>
         </div>
-    </center>
-    </center>
     </div>
 
-</div>
+    <br/><br/>
 
-<br>
-<br>
+    <center>
+        <footer>
+            <div name="footer">
+                <p>Copyright &copy; - Gooey.</p>
+            </div>
+        </footer>
+    </center>
 
-<center>
-<footer>
-    <div name="footer">
-        <p>Copyright &copy; - Gooey.</p>
-    </div>
-</footer>
-</center>
-
-<script src="app.js"></script>
-    
+    <script src="app.js"></script>
 </body>
 </html>
