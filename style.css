@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-*, ::-webkit-scrollbar, footer {
-    cursor:url(https://raw.githubusercontent.com/CaptGooey12/QuickNoter/main/cursor.png), auto;
+*,
+::-webkit-scrollbar,
+footer {
+    cursor: url(https://raw.githubusercontent.com/CaptGooey12/QuickNoter/main/cursor.png), auto;
     font-family: 'Patrick Hand', cursive;
-    -webkit-user-select: none;      
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     height: auto;
     width: auto;
-    font-color: black;
+    color: black;
 }
 
 b {
@@ -42,24 +44,21 @@ hr {
 }
 
 .box {
-    padding-left: 23px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    align-content: center;
-    padding-right: 50px;
+    width: 100%;
+    margin-left: 32px !important;
+    margin-right: 32px !important;
 }
 
 textarea {
-    text-align: left;
+    display: block;
     resize: none;
+    width: calc(100% - 34px) !important;
     background-color: rgb(247, 198, 107);
     border-radius: 13px;
-    width: fit-content;
+    height: 350px;
     color: #3f1e00;
     font-size: 16px;
- paddingont-weight: bold;
-    height: 300px;
-    width: 95%;
+    font-weight: bold;
 }
 
 #save {
@@ -98,35 +97,47 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(255, 157, 30);;
+    background-color: rgb(255, 157, 30);
+    ;
     cursor: pointer;
 }
 
 #copy {
     width: 50px;
-    height: 40px;
+    height: 45px;
     border-style: solid;
     border-radius: 6px;
     background-color: rgb(240, 139, 72);
-    padding: 0.4%;
-    margin-right: 4px;
-    margin-left: 15px
 }
 
 .buttons {
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    margin-right: 25px;
+}
+
+.buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+#save {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #delete {
     width: 50px;
-    height: 40px;
+    height: 45px;
     border-style: solid;
     border-radius: 6px;
     background-color: rgb(240, 139, 72);
-    padding: 0.4%;
-    margin-right: 4px;
-    margin-left: 15px
 }
 
 #copy:hover {
@@ -145,33 +156,49 @@ textarea {
     background-color: rgb(255, 167, 52);
 }
 
-@media only screen and (max-width: 1024px) {
-
+/*@media only screen and (max-width: 1024px) {
     textarea {
-        margin-left: 15px
     }
-
-    .buttons {
-        margin-left: 32px;
-    }
-}
+}*/
 
 @media only screen and (max-width: 1440px) {
-
-    textarea {
-        margin-left: 25px;
+    .box {
+        display: flex;
+        width: calc(100% - 48px) !important;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
-    .buttons {
-        margin-left: 46px;
+    textarea {
+        width: 100%;
     }
 }
 
-@media only screen and (min-width: 720px); {
-
-    . buttons {
-        margin-left: 0px;
-        padding-left: 100px;
+@media only screen and (min-width: 720px) {
+    .box {
+        display: flex;
+        width: 100% !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
-    
+
+    textarea {
+        width: calc(100% - 50px) !important;
+    }
+
+    .buttons {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 0;
+        margin-top: 0px;
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+
+    .buttons button {
+        margin: 0;
+        padding: 0;
+    }
 }
