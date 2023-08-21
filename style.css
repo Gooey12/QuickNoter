@@ -30,6 +30,24 @@ body {
     padding: 40px;
 }
 
+.info {
+    display: none;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: rgb(240, 171, 43);
+}
+
+#infobtn {
+    background-color: none;
+    border-style: none;
+    width: 50px;
+    height: 45px;
+}
+
 .container {
     border-style: solid;
     border-radius: 15px;
@@ -201,4 +219,5 @@ textarea {
         margin: 0;
         padding: 0;
     }
+
 }
