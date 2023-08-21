@@ -1,5 +1,6 @@
 const textbox = document.getElementById("textbox");
-const button = document.getElementById("save")
+const button = document.getElementById("save");
+const info = document.getElementById("info");
 
 button.addEventListener("click", function() {
     var download = document.getElementById("hidden-link");
@@ -16,4 +17,12 @@ function copy() {
 
 function del() {
     textbox.value = "";
+}
+
+function show() {
+    info.style.display = "block"
+}
+
+function hide() {
+    info.style.display = "none"
 }
