@@ -1,8 +1,8 @@
 const textbox = document.getElementById("textbox");
 const button = document.getElementById("save");
-const info = document.getElementById("info");
+const modal = document.getElementsByClassName("modal-dialog")[0];
 
-button.addEventListener("click", function() {
+button.addEventListener("click", ()=> {
     var download = document.getElementById("hidden-link");
     download.href = "data:text/plain," + textbox.value;
     download.click();
@@ -20,9 +20,9 @@ function del() {
 }
 
 function show() {
-    info.style.display = "block"
+    modal.style.display = "block";
 }
 
 function hide() {
-    info.style.display = "none"
+    modal.style.display = "none";
 }

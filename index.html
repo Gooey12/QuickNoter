@@ -13,25 +13,26 @@
 
 </head>
 <body>
+    <div class="modal-dialog" align="center">
+        <div id="info" class="info">
+            <button id="hide" name="infobtn" onclick="hide()"><img src="x.png"></button>
+            <p name="info">QuickNoter is a simple and easy-to-use web-based note app.</p>
+            <p>Copyright &copy; - Gooey.</p>
+        </div>
+    </div>
+
     <div class="container">
         <div class="title">
-            <h1 name="title" align="center">QuickNoter</h1>
-            <button id="show" name="infobtn" onclick="show()"><img src="https://github.com/CaptGooey12/QuickNoter/blob/main/info.png"></button>
+            <h1 name="title" align="center">
+                <button id="show" name="infobtn" onclick="show()">
+                    <img src="info.png"/>
+                </button>
+
+                QuickNoter
+            </h1>
         </div>
         <hr/>
 
-        <br><br>
-
-        <div id="info" class="info">
-            <button id=hide name="infobtn" onclick="hide()"><img src="https://github.com/CaptGooey12/QuickNoter/blob/main/x.png"></button>
-            <p name="info">
-                QuickNoter is a simple and easy-to-use web-based note app.
-            </p>
-            <p>
-                Copyright &copy; - Gooey.
-            </p>
-        </div>
-        
         <center>
             <br/>
             <div class="box">
@@ -53,16 +54,6 @@
             </button>
         </div>
     </div>
-
-    <br/><br/>
-
-    <center>
-        <footer>
-            <div name="footer">
-                
-            </div>
-        </footer>
-    </center>
 
     <script src="app.js"></script>
 </body>
